@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1922035458463182}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
+--- !u!1 &1922035458463182
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4938560933244743}
+  - 114: {fileID: 114431156713653473}
+  m_Layer: 0
+  m_Name: Effects_Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4938560933244743
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922035458463182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &114431156713653473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922035458463182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d08b17c79de0042a9cc88bed32d4965, type: 3}
+  m_Name:
+  m_ObserverEffect: {fileID: 1268220777682551, guid: d745e7fa89e33504794b32460f0c077a, type: 2}
+  m_BloodEffect: {fileID: 1445945818891734, guid: aebd768e921423a4b92671bf28d27ba5, type: 2}
+  m_GunFireEffect: {fileID: 1964302116988920, guid: 1dc14a62b0c5b3d46966b1346993b7e6, type: 2}
+  m_DustEffect: {fileID: 1784611618734993, guid: 796af602dd4538a44908141747fa25d6, type: 2}
+  m_SparkEffect: {fileID: 1082932587082277, guid: 3ea34dc0cf51e08458a22ae19c99f4af, type: 2}
+  m_WallDustEffect: {fileID: 1784611618734993, guid: 796af602dd4538a44908141747fa25d6, type: 2}
+  m_LaserEffect: {fileID: 0}
+  m_AttackIronEffect: {fileID: 1422023142649283, guid: bd172930a23cebd4ab17c8e7db78b6f5, type: 2}
+  m_AttackSnowEffect: {fileID: 1958696365404900, guid: 8ab1c049e6b4af14493774e99f7b5180, type: 2}
+  m_AttackSpaceEffect: {fileID: 1863665655976108, guid: 1ea50c2a35cc47e43afd42e566015d7f, type: 2}
+  m_AttackWoodEffect: {fileID: 1102995885739299, guid: 4417da7509a311e499841e38e02a6d86, type: 2}
+  m_ExtinguisherEffect: {fileID: 1587598650729051, guid: 4652de2c7cb71c842962c7578fc6cea6, type: 2}
+  m_CanExplosionEffect: {fileID: 1612096356604051, guid: 48bfc7925e837ee4ba0ee010ed17baa1, type: 2}
+  m_CarExplosionEffect: {fileID: 1958571576837974, guid: 16d26668c59db0b45ae2419b94423055, type: 2}
+  m_BodyExplosionEffect: {fileID: 1514762378879934, guid: 7bd6a28cfc112cb478166658942d4321, type: 2}
+  m_AddHPEffect: {fileID: 1788424833073809, guid: 53a129a1a29957c44a76b365d619532e, type: 2}
+  m_AddTimeEffect: {fileID: 1368166734123345, guid: 1bb35a7c1e8960744a0314bfde209ef9, type: 2}

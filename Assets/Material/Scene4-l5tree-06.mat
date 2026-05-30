@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Scene4-l5tree-06
+  m_Shader: {fileID: 4800000, guid: 2a3b815ee7cb32b4a9009889a5f15f5e, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _texBase
+      second:
+        m_Texture: {fileID: 2800000, guid: d3f273668a0f015419269ab511f86c2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _texLightmap
+      second:
+        m_Texture: {fileID: 2800000, guid: cc0393683f1f8d44ebd9af99f86272a1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: {}
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}

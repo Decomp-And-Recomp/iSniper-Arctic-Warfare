@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="4" KillEnemySum="6" RefreshEnemyGap="2" MaxObserverTime="4" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Rebecca: Enemy reinforcements are arriving. Don't let them get close!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: Nice shooting, Glous! Let's get out of here while we still can."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<MoTo Score="300" Exp="10" Health="100" Damage="16" MinNTime="3" MaxNTime="6" NRatio="0.03" MinWT="2" MaxWT="4" WRatio="0.05" AHead="30" ABody="50" AArm="40" ALeg="40" ASpecial="0" MachineHealth="200"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

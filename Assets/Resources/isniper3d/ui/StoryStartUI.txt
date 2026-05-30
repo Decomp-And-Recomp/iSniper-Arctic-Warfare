@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+	
+		<UIImage name="cjImage" rect="245,144,217,90" enable="false" visible="true">
+			<Texture material="StoryUI" rect="45,32,217,90" />
+		</UIImage>
+		
+		<UIImage name="headimage" rect="30,161,64,64" enable="true" visible="true">
+			<Texture material="StoryUI" rect="0,0,64,64" />
+		</UIImage>
+		
+		<UIImage name="bkImage" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="0,0,480,320" />
+		</UIImage>
+		
+		<UIImage name="falshImage1" rect="249,143,10,90" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="175,343,10,90" />
+		</UIImage>
+		<UIImage name="falshImage2" rect="437,150,10,70" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="209,355,10,70" />
+		</UIImage>
+		<UIImage name="falshImage3" rect="175,262,114,10" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="26,351,114,10" />
+		</UIImage>
+		
+		<UIImage name="falshImage4" rect="205,52,60,8" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="55,383,60,8" />
+		</UIImage>
+		<UIImage name="falshImage5" rect="205,20,60,8" enable="false" visible="true">
+			<Texture material="StoryStartUI" rect="55,416,60,8" />
+		</UIImage>
+		
+		<UIText name="missiontext" rect="200,275,55,20" adjustrect="0,-2,0,0" autoline="false" align="right" visible="true" font="anency11" fontHD="anency22" color="255,255,255,255">
+		</UIText>
+		
+		<UIText name="leveltext" rect="125,213,100,20" autoline="false" align="right" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="healthtext" rect="125,195,100,20" autoline="false" align="right" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="experiencetext" rect="125,179,100,20" autoline="false" align="right" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="nextleveltext" rect="125,162,100,20" autoline="false" align="right" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="weapontext" rect="125,145,100,20" autoline="false" align="right" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="headtext" rect="30,135,60,20" autoline="false" align="center" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		sbdfadg
+		</UIText>	
+		<UIText name="timetext" rect="300,110,100,20" autoline="false" align="left" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="addresstext" rect="300,92,100,20" autoline="false" align="left" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="descripttext" rect="300,52,150,40" autoline="true" align="left" visible="true" font="julius7" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		
+		<UIButton name="startbtn" type="click" rect="180,22,105,30" enable="true" visible="true">
+			<Hover material="StoryStartUI" rect="31,339,105,30" />
+		</UIButton>
+		
+		<UIButton name="backbtn" type="click" rect="0,5,64,30" enable="true" visible="true">
+			<Hover material="StoryStartUI" rect="64,338,64,30" />
+		</UIButton>
+		
+		<UIButton name="weaponshopbtn" type="click" rect="395,5,105,30" enable="true" visible="true">
+			<Hover material="StoryStartUI" rect="31,339,105,30" />
+		</UIButton>
+			
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="9,220,1,1" />
+		</UIImage>
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="flashimage" control_id="falshImage1,falshImage2,falshImage4,falshImage5">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		<Animation name="flashimage3" control_id="falshImage3">
+			<Alpha time="0.5" range="-0.5" restore="true" loop="true" reverse="true"/>
+		</Animation>
+	</UIAnimation>
+</UI>

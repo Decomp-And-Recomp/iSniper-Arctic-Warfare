@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="12" RefreshEnemyGap="2" MaxObserverTime="5" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Rebecca: More tanks?! We're in serious trouble if they're mass-producing those things!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: We're taking heavy fire! Keep your heads down!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<YouJi Score="200" Exp="10" Health="100" Damage="18" MinNTime="3" MaxNTime="7" NRatio="0.03" MinWT="2" MaxWT="5" WRatio="0.05" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<JingJie Score="200" Exp="10" Health="100" Damage="18" MinNTime="3" MaxNTime="7" NRatio="0.03" MinWT="2" MaxWT="5" WRatio="0.05" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<JuJi Score="200" Exp="10" Health="100" Damage="18" MinNTime="4" MaxNTime="10" NRatio="0.06" MinWT="3" MaxWT="8" WRatio="0.09" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<ZhuangJia Score="300" Exp="10" Health="300" Damage="18" MinNTime="2" MaxNTime="5" NRatio="0.04" MinWT="1" MaxWT="4" WRatio="0.08" AHead="70" ABody="130" AArm="100" ALeg="100" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

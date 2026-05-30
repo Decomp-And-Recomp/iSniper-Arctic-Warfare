@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="imagebk" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="OptionAUI" rect="0,0,480,320" />
+		</UIImage>
+		
+		<UIImage name="logoflashimage" rect="373,232,95,72" adjustrect="0,0,0,0" enable="false" visible="true">
+			<Texture material="OptionAUI" rect="0,328,95,72" />
+		</UIImage>
+		
+		<UIButton name="controlbtn" type="select" rect="376,198,95,22" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="373,480,95,22" />
+		</UIButton>
+		<UIButton name="soundbtn" type="select" rect="376,170,95,22" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="373,480,95,22" />
+		</UIButton>
+		<UIButton name="helpbtn" type="select" rect="376,142,95,22" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="373,480,95,22" />
+		</UIButton>
+		<UIButton name="creditsbtn" type="select" rect="376,114,95,22" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="373,480,95,22" />
+		</UIButton>
+		<UIButton name="extrabtn" type="select" rect="376,58,95,22" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="373,480,95,22" />
+		</UIButton>
+		
+		<UIImage name="controlpanelbk" rect="0,135,305,140" enable="false" visible="true">
+			<Texture material="OptionBUI" rect="208,0,305,140" />
+		</UIImage>
+		<UIImage name="InvertY" rect="186,197,88,11" enable="false" visible="false">
+			<Texture material="OptionBUI" rect="5,498,88,11" />
+		</UIImage>
+		<UIImage name="InvertY1" rect="186,197,88,11" enable="false" visible="false">
+			<Texture material="OptionBUI" rect="101,498,88,11" />
+		</UIImage>		
+		<UIButton name="tiltjoystickbtn" type="push" rect="50,228,100,20" enable="true" visible="true">
+			<Normal material="OptionBUI" rect="406,457,100,20" />
+			<Press material="OptionBUI" rect="406,475,100,20" />
+			<Disable material="OptionBUI" rect="406,457,100,20" />
+		</UIButton>
+		<UIButton name="invertaxisbtn" type="push" rect="50,195,100,20" enable="true" visible="true">
+			<Normal material="OptionBUI" rect="290,457,100,20" />
+			<Press material="OptionBUI" rect="290,475,100,20" />
+			<Disable material="OptionBUI" rect="290,491,100,20" />
+		</UIButton>
+		<UIMove name="sensitivitymove" rect="50,160,90,25" enable="true"/>
+		<UIImage name="sensitivitymark" rect="100,161,15,25" enable="false" visible="true">
+			<Texture material="OptionBUI" rect="266,462,15,25" />
+		</UIImage>
+		<UIButton name="resetbtn" type="click" rect="145,160,40,25" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="315, 484, 27, 19" />
+		</UIButton>
+		
+		<UIImage name="soundpanelbk" rect="0,160,305,115" enable="false" visible="true">
+			<Texture material="OptionBUI" rect="208,141,305,115" />
+		</UIImage>
+		<UIButton name="soundswitchbtn" type="push" rect="50,228,100,20" enable="true" visible="true">
+			<Normal material="OptionBUI" rect="290,457,100,20" />
+			<Press material="OptionBUI" rect="290,475,100,20" />
+			<Disable material="OptionBUI" rect="290,457,100,20" />
+		</UIButton>
+		<UIButton name="musicswitchbtn" type="push" rect="50,195,100,20" enable="true" visible="true">
+			<Normal material="OptionBUI" rect="290,457,100,20" />
+			<Press material="OptionBUI" rect="290,475,100,20" />
+			<Disable material="OptionBUI" rect="290,457,100,20" />
+		</UIButton>
+		
+		<UIImage name="helppanelbk1" rect="0,45,375,256" enable="false" visible="true">
+			<Texture material="HelpUI" rect="0,256,375,256" />
+		</UIImage>
+		<UIImage name="leftMark" rect="5,57,20,8" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="14,385,30,11" />
+		</UIImage>
+		<UIImage name="rightMark" rect="332,57,20,8" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="87,385,30,11" />
+		</UIImage>
+		<UIButton name="prehelpbtn" type="click" rect="0,57,50,24" enable="true" visible="false">
+		</UIButton>
+		<UIButton name="nexthelpbtn" type="click" rect="312,57,50,24" enable="true" visible="false">
+		</UIButton>
+		
+		<UIImage name="creditspanelbk" rect="0,85,299,227" enable="false" visible="true">
+			<Texture material="createUI" rect="0,0,299,227" />
+		</UIImage>
+		<UIImage name="creditlist" rect="5,135,232,245" enable="false" visible="true">
+			<Texture material="createUI" rect="0,228,232,245" />
+		</UIImage>
+		<UINewMove name="creditlistmove" rect="15,80,270,260" enable="false"/>	
+		
+		<UIImage name="historypanelbk1" rect="0,108,193,171" enable="false" visible="true">
+			<Texture material="OptionBUI" rect="7,45,193,171" />
+		</UIImage>
+		<UIImage name="historypanelbk2" rect="191,104,166,168" enable="false" visible="true">
+			<Texture material="OptionBUI" rect="35,236,166,168" />
+		</UIImage>
+		<UIButton name="buyisniper1btn" type="click" rect="68, 103, 97, 29" enable="false" visible="true">
+			<Hover material="OptionBUI" rect="88, 442, 97, 29" />
+		</UIButton>
+		<UIButton name="buyisniper2btn" type="click" rect="220, 105, 97, 27" enable="false" visible="true">
+			<Hover material="OptionBUI" rect="88, 469, 97, 27" />
+		</UIButton>
+		
+		<UIButton name="videobtn" type="click" rect="220, 130, 97, 27" enable="false" visible="true">
+			<Hover material="OptionBUI" rect="88, 469, 97, 27" />
+		</UIButton>
+		
+		<UIImage name="extrapanelbk" rect="0,118,364,152" enable="false" visible="true">
+			<Texture material="OptionAUI" rect="147,321,364,152" />
+		</UIImage>
+		<UIButton name="reviewbtn" type="click" rect="62, 170, 70, 70" enable="false" visible="true">
+			<Hover material="OptionAUI" rect="13, 413, 70, 70" />
+		</UIButton>
+		<UIButton name="supportbtn" type="click" rect="160, 170, 70, 70" enable="false" visible="true">
+			<Hover material="OptionAUI" rect="13, 413, 70, 70" />
+		</UIButton>
+		<UIButton name="websitebtn" type="click" rect="255, 170, 70, 70" enable="false" visible="true">
+			<Hover material="OptionAUI" rect="13, 413, 70, 70" />
+		</UIButton>
+		
+		
+		<UIButton name="backbtn" type="click" rect="0, 10, 76, 25" enable="true" visible="true">
+			<Hover material="OptionAUI" rect="238, 480, 76, 25" />
+		</UIButton>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="13,175,1,1" />
+		</UIImage>
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="flashimage" control_id="logoflashimage">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		
+		<Animation name="controlpanelslide" control_id="controlpanelbk,invertaxisbtn,tiltjoystickbtn,sensitivitymark,InvertY,InvertY1">
+			<Translate time="0.5" offset="305,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="soundpanelslide" control_id="soundpanelbk,soundswitchbtn,musicswitchbtn">
+			<Translate time="0.5" offset="305,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="helppanelslide" control_id="helppanelbk1">
+			<Translate time="0.5" offset="375,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="creditspanelslide" control_id="creditspanelbk,creditlist">
+			<Translate time="0.5" offset="305,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="historypanelslide" control_id="historypanelbk1,historypanelbk2">
+			<Translate time="0.5" offset="358,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="extrapanelslide" control_id="extrapanelbk">
+			<Translate time="0.5" offset="365,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>

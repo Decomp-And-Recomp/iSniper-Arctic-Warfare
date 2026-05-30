@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+	
+		<UIImage name="iapbk" rect="0,0,480,320" enable="false" visible="true" >
+			<Texture material="IapUI" rect="0,0,480,320" />
+		</UIImage>
+		<UIImage name="shopbk" rect="2,43,467,227" enable="false" visible="true" >
+			<Texture material="IapUI" rect="481,0,467,227" />
+		</UIImage>
+		
+		<UIText name="cashnumber" rect="286,304,145,17" adjustrect="0,-2,0,0" autoline="false" align="center" visible="true" font="anency11" fontHD="anency22" color="255,255,255,255">
+		</UIText>
+
+		<UIImage name="cash1" rect="30,160,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="481,227,135,86" />
+		</UIImage>
+		<UIImage name="cash2" rect="170,160,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="617,227,135,86" />
+		</UIImage>
+		<UIImage name="cash3" rect="310,160,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="753,227,135,86" />
+		</UIImage>
+		<UIImage name="cash4" rect="30,63,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="889,227,135,86" />
+		</UIImage>
+		<UIImage name="cash5" rect="170,63,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="481,314,135,86" />
+		</UIImage>
+		<UIImage name="cash6" rect="310,63,135,86" enable="false" visible="true" >
+			<Texture material="IapUI" rect="617,314,135,86" />
+		</UIImage>
+		
+		<UIImage name="buybk1" rect="50,190,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		<UIImage name="buybk2" rect="190,190,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		<UIImage name="buybk3" rect="330,190,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		<UIImage name="buybk4" rect="50,92,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		<UIImage name="buybk5" rect="190,92,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		<UIImage name="buybk6" rect="330,92,98,22" enable="false" visible="true" >
+			<Texture material="IapUI" rect="888,314,98,22" />
+		</UIImage>
+		
+		<UIText name="buytext1" rect="50,186,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		10K Credits
+		</UIText>
+		<UIText name="buytext2" rect="190,186,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		21K Credits
+		</UIText>
+		<UIText name="buytext3" rect="330,186,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		32K Credits
+		</UIText>		
+		<UIText name="buytext4" rect="50,88,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		54K Credits
+		</UIText>			
+		<UIText name="buytext5" rect="190,88,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		110K Credits
+		</UIText>	
+		<UIText name="buytext6" rect="330,88,98,22" autoline="false" align="center" visible="true" font="julius16" fontHD="julius16" color="255,255,255,255">
+		224K Credits
+		</UIText>
+
+		<UIButton name="buy1btn" type="click" rect="30,159,134,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>		
+		<UIButton name="buy2btn" type="click" rect="170,159,135,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>	
+		<UIButton name="buy3btn" type="click" rect="310,159,134,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>	
+		<UIButton name="buy4btn" type="click" rect="30,62,135,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>	
+		<UIButton name="buy5btn" type="click" rect="170,62,134,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>	
+		<UIButton name="buy6btn" type="click" rect="310,62,134,86" enable="true" visible="true">
+			<Hover material="IapUI" rect="753,314,134,86" />
+		</UIButton>			
+		
+		<UIButton name="backbtn" type="click" rect="0,10,70,25" enable="true" visible="true">
+			<Hover material="WeaponShopUI" rect="140,452,127,20" />
+		</UIButton>	
+
+		<UIImage name="dialogblock" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GrayUI" rect="0,0,1,1" />
+		</UIImage>
+		<UIImage name="dialogyesnobk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,28,256,102" />
+		</UIImage>
+		<UIImage name="dialogokbk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,133,256,102" />
+		</UIImage>
+		<UIText name="dialogtext" rect="155,140,175,50" autoline="true" align="left" visible="false" font="julius12" fontHD="julius16" color="255,255,255,255">
+		this is the test dialog text kss test test test test test test
+		</UIText>
+		<UIButton name="okbutton" type="click" rect="200,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>			
+		
+		<UIImage name="iapblock" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GrayUI" rect="0,0,1,1" />
+		</UIImage>
+		<UIImage name="connect" rect="134,150,215,76" enable="false" visible="false">
+			<Texture material="IapUI" rect="0,320,215,76" />
+		</UIImage>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="34,271,1,1" />
+		</UIImage>
+		
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+	
+		<Animation name="flashimage" control_id="falshImage1,falshImage2">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		
+
+	</UIAnimation>
+</UI>

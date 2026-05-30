@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="150,17,1,1" />
+		</UIImage>
+		<UIText name="newgametext" rect="60,170,420,50" autoline="false" align="left" chargap="2" visible="false" font="ziti_w" fontHD="ziti_w" color="255,255,255,255">
+		</UIText>
+		<UIText name="newgametext1" rect="320,135,120,50" autoline="false" align="left" chargap="2" visible="false" font="ziti_w" fontHD="ziti_w" color="255,255,255,255">
+		</UIText>
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="0.5" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>	

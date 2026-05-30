@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="imagebk" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="LoadUI" rect="0,0,480,320" />
+		</UIImage>
+		
+		<UIImage name="progressor" rect="106,46,273,10" enable="false" visible="true">
+			<Texture material="LoadUI" rect="106,346,273,10" />
+		</UIImage>
+		
+		<UIImage name="progressmask" rect="150,46,210,10" enable="false" visible="true">
+			<Texture material="LoadUI" rect="137,373,210,10" />
+		</UIImage>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="150,17,1,1" />
+		</UIImage>
+		
+	</UIElem>
+	
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>

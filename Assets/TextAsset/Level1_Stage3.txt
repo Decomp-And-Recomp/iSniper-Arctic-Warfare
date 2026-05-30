@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="18" RefreshEnemyGap="2" MaxObserverTime="8" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Adam: They've dispatched their main force! Take them out!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: That should do it for now, but stay alert."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JingJie Score="100" Exp="10" Health="100" Damage="10" MinNTime="4" MaxNTime="8" NRatio="0.02" MinWT="3" MaxWT="6" WRatio="0.04" AHead="0" ABody="20" AArm="10" ALeg="10" ASpecial="0" MachineHealth="0"/>
+		<YouJi Score="100" Exp="10" Health="100" Damage="10" MinNTime="4" MaxNTime="8" NRatio="0.02" MinWT="3" MaxWT="6" WRatio="0.04" AHead="0" ABody="20" AArm="10" ALeg="10" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

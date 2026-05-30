@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="10" RefreshEnemyGap="2" MaxObserverTime="6" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Rebecca: Heads up! Enemy snipers on the hilltops!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Rebecca: HEAVEN's missile silo is right over that hill."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JuJi Score="200" Exp="10" Health="100" Damage="16" MinNTime="5" MaxNTime="10" NRatio="0.06" MinWT="4" MaxWT="8" WRatio="0.09" AHead="40" ABody="60" AArm="50" ALeg="50" ASpecial="0" MachineHealth="0"/>
+		<SaoShe Score="200" Exp="10" Health="100" Damage="16" MinNTime="3" MaxNTime="6" NRatio="0.04" MinWT="2" MaxWT="4" WRatio="0.04" AHead="40" ABody="60" AArm="50" ALeg="50" ASpecial="0" MachineHealth="0"/>
+		<YouJi Score="200" Exp="10" Health="100" Damage="16" MinNTime="4" MaxNTime="7" NRatio="0.03" MinWT="3" MaxWT="5" WRatio="0.05" AHead="40" ABody="60" AArm="50" ALeg="50" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="imagebk" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="0,0,480,320" />
+		</UIImage>
+		<UIText name="weaponname" rect="75,304,145,17" adjustrect="0,-2,0,0" autoline="false" align="center" visible="true" font="anency11" fontHD="anency22" color="255,255,255,255">
+		MP5
+		</UIText>
+		<UIText name="cashnumber" rect="286,304,145,17" adjustrect="0,-2,0,0" autoline="false" align="center" visible="true" font="anency11" fontHD="anency22" color="255,255,255,255">
+		</UIText>
+		
+		<UIImage name="weapon1" rect="35,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="0,0,410,125" />
+		</UIImage>
+		<UIImage name="weapon2" rect="445,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="410,0,410,125" />
+		</UIImage>
+		<UIImage name="weapon3" rect="855,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="0,125,410,125" />
+		</UIImage>
+		<UIImage name="weapon4" rect="1265,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="410,125,410,125" />
+		</UIImage>
+		<UIImage name="weapon5" rect="1675,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="0,250,410,125" />
+		</UIImage>
+		<UIImage name="weapon6" rect="2085,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="410,250,410,125" />
+		</UIImage>
+		<UIImage name="weapon7" rect="2495,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="0,375,410,125" />
+		</UIImage>
+		<UIImage name="weapon8" rect="2905,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="410,375,410,125" />
+		</UIImage>
+		<UIImage name="weapon9" rect="3315,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="0,500,410,125" />
+		</UIImage>
+		<UIImage name="weapon10" rect="3725,170,410,125" clip="35,170,410,125" enable="false" visible="true">
+			<Texture material="Weapon" rect="410,500,410,125" />
+		</UIImage>
+		<UINewMove name="weaponmove" rect="0,170,480,125" enable="true">
+		</UINewMove>
+		
+		<UIImage name="leftMark" rect="25,165,30,11" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="14,385,30,11" />
+		</UIImage>
+		<UIImage name="rightMark" rect="434,165,30,11" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="87,385,30,11" />
+		</UIImage>
+		<UIButton name="leftmarkbutton" type="click" rect="25,160,40,35" enable="false" visible="false">
+		</UIButton>
+		<UIButton name="rightmarkbutton" type="click" rect="425,160,40,35" enable="false" visible="false">
+		</UIButton>
+		
+		<UIText name="weaponpricetext" rect="263,161,100,17" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="36,201,255,255">
+		</UIText>
+		
+		<UIImage name="damagestarbk1" rect="35,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk2" rect="47,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk3" rect="59,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk4" rect="71,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk5" rect="83,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk6" rect="95,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk7" rect="107,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk8" rect="119,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk9" rect="131,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestarbk10" rect="143,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="damagestar1" rect="35,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar2" rect="47,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar3" rect="59,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar4" rect="71,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar5" rect="83,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar6" rect="95,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar7" rect="107,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar8" rect="119,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar9" rect="131,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="damagestar10" rect="143,129,12,12" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		
+		<UIImage name="sliencerstarbk1" rect="258,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk2" rect="270,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk3" rect="282,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk4" rect="294,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk5" rect="306,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk6" rect="318,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk7" rect="330,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk8" rect="342,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk9" rect="354,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstarbk10" rect="366,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar1" rect="258,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar2" rect="270,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar3" rect="282,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar4" rect="294,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar5" rect="306,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar6" rect="318,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar7" rect="330,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar8" rect="342,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar9" rect="354,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="sliencerstar10" rect="366,129,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		
+		<UIImage name="fireratestarbk1" rect="35,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk2" rect="47,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk3" rect="59,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk4" rect="71,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk5" rect="83,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk6" rect="95,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk7" rect="107,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk8" rect="119,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk9" rect="131,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestarbk10" rect="143,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar1" rect="35,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar2" rect="47,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar3" rect="59,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar4" rect="71,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar5" rect="83,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar6" rect="95,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar7" rect="107,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar8" rect="119,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar9" rect="131,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="fireratestar10" rect="143,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		
+		<UIImage name="clipstarbk1" rect="258,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk2" rect="270,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk3" rect="282,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk4" rect="294,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk5" rect="306,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk6" rect="318,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk7" rect="330,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk8" rect="342,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk9" rect="354,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstarbk10" rect="366,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="clipstar1" rect="258,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar2" rect="270,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar3" rect="282,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar4" rect="294,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar5" rect="306,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar6" rect="318,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar7" rect="330,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar8" rect="342,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar9" rect="354,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="clipstar10" rect="366,91,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		
+		<UIImage name="reloadstarbk1" rect="35,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk2" rect="47,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk3" rect="59,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk4" rect="71,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk5" rect="83,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk6" rect="95,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk7" rect="107,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk8" rect="119,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk9" rect="131,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstarbk10" rect="143,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar1" rect="35,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar2" rect="47,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar3" rect="59,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar4" rect="71,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar5" rect="83,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar6" rect="95,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar7" rect="107,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar8" rect="119,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar9" rect="131,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="reloadstar10" rect="143,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		
+		<UIImage name="zoomstarbk1" rect="258,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk2" rect="270,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk3" rect="282,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk4" rect="294,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk5" rect="306,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk6" rect="318,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk7" rect="330,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk8" rect="342,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk9" rect="354,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstarbk10" rect="366,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,36,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar1" rect="258,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar2" rect="270,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar3" rect="282,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar4" rect="294,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar5" rect="306,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar6" rect="318,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar7" rect="330,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar8" rect="342,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar9" rect="354,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+		<UIImage name="zoomstar10" rect="366,54,12,12" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="490,22,12,12" />
+		</UIImage>
+
+		<UIImage name="starup" rect="55,129,20,20" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="481,53,20,20" />
+		</UIImage>
+		
+		<UIText name="damageupdatecashtext" rect="175,142,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		<UIText name="sliencerupdatecashtext" rect="400,142,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		<UIText name="firerateupdatecashtext" rect="175,104,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		<UIText name="clipupdatecashtext" rect="400,104,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		<UIText name="reloadupdatecashtext" rect="175,67,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		<UIText name="zoomupdatecashtext" rect="400,67,50,17" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="8,130,177,255">
+		</UIText>
+		
+		<UIButton name="damageupdatebtn" type="click" rect="172, 125, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIButton name="sliencerupdatebtn" type="click" rect="394, 125, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIButton name="firerateupdatebtn" type="click" rect="172, 87, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIButton name="clipupdatebtn" type="click" rect="394, 87, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIButton name="reloadupdatebtn" type="click" rect="172, 49, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIButton name="zoomupdatebtn" type="click" rect="394, 49, 64, 20" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Press material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Disable material="WeaponShopUI" rect="36, 449, 64, 20" />
+			<Hover material="WeaponShopUI" rect="160, 483, 60, 15" />
+		</UIButton>
+		
+		<UIImage name="dynmaicbk" rect="227,289,53,10" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="165,488,53,10" />
+		</UIImage>
+		
+		<UIImage name="buttondynmaicbk" rect="199,6,90,45" enable="false" visible="true">
+			<Texture material="WeaponShopUI" rect="20,331,90,45" />
+		</UIImage>
+		
+		<UIImage name="equiptext" rect="179,10,132,29" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="125,367,132,29" />
+		</UIImage>
+		<UIImage name="equipmark" rect="179,15,127,20" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="126,452,127,20" />
+		</UIImage>
+		
+		<UIImage name="locktext" rect="179,10,132,29" enable="false" visible="false">
+			<Texture material="WeaponShopUI" rect="125,410,132,29" />
+		</UIImage>
+		
+		<UIButton name="buybutton" type="click" rect="179,10,132,29" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="125,327,132,29" />
+			<Press material="WeaponShopUI" rect="125,327,132,29" />
+			<Disable material="WeaponShopUI" rect="125,327,132,29" />
+			<Hover material="WeaponShopUI" rect="128,452,127,20" />
+		</UIButton>
+		<UIButton name="equipbutton" type="click" rect="179,10,132,29" enable="true" visible="true">
+			<Normal material="WeaponShopUI" rect="125,367,132,29" />
+			<Press material="WeaponShopUI" rect="125,367,132,29" />
+			<Disable material="WeaponShopUI" rect="125,367,132,29" />
+			<Hover material="WeaponShopUI" rect="126,452,127,20" />
+		</UIButton>
+		
+		<UIButton name="backbutton" type="click" rect="0,0,70,25" enable="true" visible="true">
+			<Hover material="WeaponShopUI" rect="140,452,127,20" />
+		</UIButton>
+		
+		<UIButton name="getcashbutton" type="click" rect="365,0,115,25" enable="true" visible="true">
+			<Hover material="WeaponShopUI" rect="120,450,127,20" />
+		</UIButton>
+		
+		<UIImage name="dialogblock" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GrayUI" rect="0,0,1,1" />
+		</UIImage>
+		<UIImage name="dialogyesnobk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,28,256,102" />
+		</UIImage>
+		<UIImage name="dialogokbk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,133,256,102" />
+		</UIImage>
+		<UIText name="dialogtext" rect="155,140,175,50" autoline="true" align="left" visible="false" font="julius12" fontHD="julius16" color="255,255,255,255">
+		this is the test dialog text kss test test test test test test
+		</UIText>
+		<UIButton name="yesbutton" type="click" rect="130,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>
+		<UIButton name="nobutton" type="click" rect="270,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="89,286,1,1" />
+		</UIImage>
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+				
+		<Animation name="iapfadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="buttondynmaicbk" control_id="dynmaicbk,buttondynmaicbk,equipmark">
+			<Alpha time="0.5" range="-0.8" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		<Animation name="statup" control_id="starup">
+			<Scale time="0.4" range="-0.5" restore="true" loop="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>

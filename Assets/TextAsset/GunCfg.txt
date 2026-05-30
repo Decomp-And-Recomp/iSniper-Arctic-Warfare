@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Gun>
+	<Item Buy="1" HL="2" HU="2" HC="700" SL="4" SU="3" SC="400" FL="4" FU="3" FC="600" CL="3" CU="3" CC="200" RL="4" RU="3" RC="300" ZL="2" ZU="3" ZC="500" Name="M21" Price="0" Sound="Shot_Low"  />
+	<Item Buy="0" HL="3" HU="2" HC="800" SL="5" SU="3" SC="500" FL="5" FU="3" FC="700" CL="4" CU="3" CC="300" RL="5" RU="3" RC="400" ZL="1" ZU="3" ZC="600" Name="SVD" Price="5000" Sound="Shot_Low"  />
+	<Item Buy="0" HL="4" HU="2" HC="1000" SL="3" SU="3" SC="700" FL="3" FU="3" FC="900" CL="2" CU="3" CC="500" RL="3" RU="3" RC="600" ZL="3" ZU="3" ZC="800" Name="PSG-1" Price="10000" Sound="Shot_Mid"  />
+	<Item Buy="0" HL="3" HU="3" HC="900" SL="3" SU="4" SC="600" FL="3" FU="4" FC="800" CL="4" CU="4" CC="400" RL="3" RU="4" RC="500" ZL="3" ZU="4" ZC="700" Name="M40" Price="20000" Sound="Shot_Mid"  />
+	<Item Buy="0" HL="4" HU="3" HC="1000" SL="4" SU="4" SC="700" FL="4" FU="4" FC="900" CL="5" CU="4" CC="500" RL="4" RU="4" RC="600" ZL="2" ZU="4" ZC="800" Name="AS50" Price="30000" Sound="Shot_High"  />
+	<Item Buy="0" HL="5" HU="3" HC="1100" SL="2" SU="4" SC="800" FL="2" FU="4" FC="1000" CL="3" CU="4" CC="600" RL="2" RU="4" RC="700" ZL="4" ZU="4" ZC="900" Name="M82" Price="50000" Sound="Shot_High"  />
+	<Item Buy="0" HL="2" HU="2" HC="1000" SL="8" SU="2" SC="700" FL="8" FU="2" FC="900" CL="8" CU="2" CC="500" RL="4" RU="2" RC="600" ZL="1" ZU="2" ZC="800" Name="BB-GUN" Price="15000" Sound="Shot_Low" />
+	<Item Buy="0" HL="5" HU="3" HC="1200" SL="4" SU="4" SC="900" FL="4" FU="4" FC="1100" CL="4" CU="4" CC="700" RL="3" RU="4" RC="800" ZL="6" ZU="4" ZC="1000" Name="EAGLE EYE" Price="80000" Sound="Shot_High" />
+	<Item Buy="0" HL="6" HU="3" HC="2200" SL="1" SU="3" SC="1600" FL="1" FU="3" FC="2000" CL="1" CU="3" CC="1200" RL="4" RU="3" RC="1400" ZL="5" ZU="3" ZC="1800" Name="RPG" Price="100000" Sound="RocketShot" />
+	<Item Buy="0" HL="10" HU="0" HC="0" SL="10" SU="0" SC="0" FL="10" FU="0" FC="0" CL="10" CU="0" CC="0" RL="10" RU="0" RC="0" ZL="10" ZU="0" ZC="0" Name="LASER GUN" Price="200000" Sound="LaserShot" />
+</Gun>

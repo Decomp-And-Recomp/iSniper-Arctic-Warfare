@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="6" RefreshEnemyGap="2" MaxObserverTime="8" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Glous: Watch out! Snipers!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: All forces move in! Rescue the hostage at all costs!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JuJi Score="200" Exp="20" Health="100" Damage="12" MinNTime="5" MaxNTime="10" NRatio="0.04" MinWT="4" MaxWT="8" WRatio="0.08" AHead="0" ABody="20" AArm="10" ALeg="10 " ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

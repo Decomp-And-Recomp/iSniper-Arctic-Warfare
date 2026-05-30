@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+  <Story1>
+    <Start>
+      <Item Image="GS00" Head="" Text="The court hereby finds Glous Miller guilty of murder in the first degree." />
+      <Item Image="WZ00" Head="" Text="" />
+      <Item Image="GS01"   Head="TX_3" Text="It's been a long time, Glous." />
+      <Item Image=""   Head="TX_1" Text="It has. What are you doing here, Adam?" />
+      <Item Image=""   Head="TX_3" Text="Look, I know this isn't easy for you, but GST needs you back. If you're ready, we can get you out of here." />
+      <Item Image=""   Head="TX_1" Text="No, this is my punishment for my sins. I've killed so many... " />
+      <Item Image=""   Head="TX_3" Text="Listen to me, Glous. We found TRINITI." />
+      <Item Image=""   Head="TX_1" Text="What if you're wrong?" />
+      <Item Image=""   Head="TX_3" Text="We're not. We FOUND them. The software company is just a front for HEAVEN's detention center." />
+      <Item Image=""   Head="TX_1" Text="...When do you move?" />
+      <Item Image=""   Head="TX_3" Text="Tomorrow." />
+      <Item Image="WZ01"   Head="" Text="" />
+      <Item Image="CJ01"   Head="TX_3" Text="Our objective is simple: rescue the hostage." />
+      <Item Image=""   Head="TX_1" Text="Understood. I'll thin the enemy's defenses so your squad can move in." />
+      <Item Image=""   Head="TX_3" Text="We don't have a spotter for you this time. Think you can handle it by yourself?" />
+      <Item Image=""   Head="TX_1" Text="I'll be fine." />
+      <Item Image=""   Head="TX_3" Text="OK. Let's move!" />
+    </Start>
+    <End>
+      <Item Image="GS02" Head="TX_1" Text="Ana? Is that you?" />
+      <Item Image=""   Head="TX_2" Text="..." />
+      <Item Image=""   Head="TX_1" Text="It's not you, is it?" />
+      <Item Image=""   Head="TX_2" Text="I'm sorry to disappoint you." />
+      <Item Image=""   Head="TX_3" Text="Glous, this is Rebecca. She's an undercover agent who infiltrated HEAVEN." />
+      <Item Image=""   Head="TX_2" Text="At least I was until my cover got blown..." />
+      <Item Image=""   Head="TX_3" Text="I'm sorry, Glous. We didn't find Ana." />
+	  <Item Image=""   Head="TX_1" Text="..." />
+    </End>
+  </Story1>
+  <Story2>
+    <Start>
+      <Item Image="WZ02" Head="" Text="" />
+      <Item Image="GS03"   Head="TX_2" Text="I've discovered that HEAVEN is preparing to hit this area with suicide bombers." />
+      <Item Image=""   Head="TX_3" Text="We need to stop them before 1200 hours." />
+      <Item Image=""   Head="TX_1" Text="I'll need a spotter." />
+      <Item Image=""   Head="TX_2" Text="You're looking at her." />
+      <Item Image=""   Head="TX_1" Text="You?" />
+      <Item Image=""   Head="TX_3" Text="That's right. Rebecca was GST's best spotter for quite some time." />
+	  <Item Image=""   Head="TX_2" Text="You learn something new every day, don't you? I'll buy you a drink if you don't get me killed." />
+    </Start>
+    <End>
+      <Item Image="GS04" Head="TX_2" Text="It's been so long... I miss this place." />
+      <Item Image=""   Head="TX_1" Text="..." />
+      <Item Image=""   Head="TX_2" Text="Glous, are you... Crying?" />
+      <Item Image=""   Head="TX_1" Text="It's just sand in my eye."/>
+      <Item Image=""   Head="TX_2" Text="Are you thinking about Ana?" />
+      <Item Image=""   Head="TX_1" Text="..." />
+    </End>
+  </Story2>
+  <Story3>
+    <Start>
+      <Item Image="WZ03" Head="" Text="" />
+      <Item Image="CJ03"   Head="TX_3" Text="HEAVEN was busy while we were defusing their human bombs. According to our intel, they're close to completing work on a deadly new strain of bacteria." />
+      <Item Image=""   Head="TX_2" Text="It looks like they're planning to put their new bioweapon into missiles." />
+      <Item Image=""   Head="TX_3" Text="We've located HEAVEN's lab, but because of the terrain we won't be able to fly in. We'll have to drop down here." />
+      <Item Image=""   Head="TX_3" Text="Glous will provide cover fire. Let's move, people! " />
+    </Start>
+    <End>
+      <Item Image="GS05" Head="TX_3" Text="Looks like they escaped just before we got here..." />
+      <Item Image=""   Head="TX_1" Text="And they took their new bioweapon with them." />
+      <Item Image=""   Head="TX_2" Text="Hold on. Do you guys hear something?" />
+      <Item Image=""   Head="TX_3" Text="That better not be what I think it is..." />
+      <Item Image="GS06"   Head="TX_2" Text="Run!" />
+      <Item Image="GS07"   Head="" Text="[BOOOOOOOM]" />
+    </End>
+  </Story3>
+  <Story4>
+    <Start>
+      <Item Image="WZ04" Head="" Text="" />
+      <Item Image="CJ04"   Head="TX_3" Text="Damn! I should've known we were walking into a trap!" />
+      <Item Image=""   Head="TX_1" Text="Rebecca, we owe you one. Your ears saved our lives." />
+      <Item Image=""   Head="TX_2" Text="There's no time to thank me-we've got company!" />
+      <Item Image=""   Head="TX_3" Text="Everyone into position! They're coming!" />
+    </Start>
+    <End>
+      <Item Image="GS08" Head="TX_3" Text="Our ride is here; let's move out!" />
+      <Item Image=""   Head="TX_2" Text="Wait... take a look at this!" />
+      <Item Image=""   Head="TX_1" Text="These look like missile blueprints." />
+      <Item Image=""   Head="TX_2" Text="With these blueprints we can trace the frequencies of their guidance chips to their launch site." />
+      <Item Image=""   Head="TX_3" Text="Nice work, Rebecca! Once we get back, we can plan our next move." />
+    </End>
+  </Story4>
+  <Story5>
+    <Start>
+      <Item Image="WZ05" Head="" Text="" />
+      <Item Image="CJ05"   Head="TX_3" Text="This is as far as our chopper can fly in this blizzard." />
+      <Item Image=""   Head="TX_2" Text="HEAVEN's missile silo is just over that hill." />
+      <Item Image=""   Head="TX_1" Text="Getting in won't be a cakewalk. They'll definitely be waiting to ambush us up ahead." />
+      <Item Image=""   Head="TX_3" Text="Then we'll just have to push forward slowly and use cover. " />
+    </Start>
+    <End>
+      <Item Image="GS09" Head="TX_2" Text="This looks bad. They're getting ready for launch!" />
+      <Item Image=""   Head="TX_1" Text="We'll have to move fast then." />
+    </End>
+  </Story5>
+  <Story6>
+    <Start>
+      <Item Image="WZ06" Head="" Text="" />
+      <Item Image="CJ06"   Head="TX_2" Text="I need to get inside the control room if we're going to stop this." />
+      <Item Image=""   Head="TX_3" Text="Everyone focus fire on the path to the control room! We need to clear the way for Rebecca!" />
+     </Start>
+    <End>
+      <Item Image="GS10" Head="TX_2" Text="Let's head inside." />
+      <Item Image=""   Head="TX_1" Text="OK, I've got you covered." />
+    </End>
+  </Story6>
+  <Story7>
+    <Start>
+      <Item Image="WZ07" Head="" Text="" />
+      <Item Image="CJ07"   Head="TX_2" Text="This place is crawling with HEAVEN operatives and I don't have time to play spotter. Think you can handle yourself?" />
+      <Item Image=""   Head="TX_1" Text="Of course." />
+      <Item Image=""   Head="TX_2" Text="Always the cool guy, aren't you?" />
+      <Item Image=""   Head="TX_1" Text="If we survive, I'll get you that drink I owe you." />
+      <Item Image=""   Head="TX_2" Text="I'm going to hold you to it!" />
+    </Start>
+    <End>
+      <Item Image="GS11" Head="TX_1" Text="The control room is dead ahead." />
+      <Item Image=""   Head="TX_2" Text="Watch out!" />
+      <Item Image="GS12"   Head="" Text="[CRACK!]" />
+      <Item Image=""   Head="TX_1" Text="Damn!" />
+    </End>
+  </Story7>
+  <Story8>
+    <Start>
+      <Item Image="WZ08" Head="" Text="" />
+      <Item Image="CJ08"   Head="TX_1" Text="What the hell?! I already killed Silver Fox!" />
+      <Item Image=""   Head="TX_2" Text="You mean you don't know? HEAVEN trained six super-snipers for Project Silver Fox." />
+      <Item Image=""   Head="TX_1" Text="Three Silver Foxes at once... Do I even stand a chance?" />
+      <Item Image=""   Head="TX_2" Text="Glous..." />
+      <Item Image=""   Head="TX_1" Text="?" />
+      <Item Image="GS13"   Head="TX_2" Text="I believe in you." />
+    </Start>
+    <End>
+      <Item Image="GS14" Head="TX_1" Text="You've got 12 seconds left, hurry!" />
+      <Item Image=""   Head="TX_2" Text="Almost there!" />
+      <Item Image=""   Head="TX_2" Text="Got it!" />
+      <Item Image="WZ09"   Head="" Text="[BOOOM!]" />
+      <Item Image=""   Head="TX_3" Text="Glous, what the hell is happening in there?! The missile just launched!" />
+      <Item Image=""   Head="TX_1" Text="What?" />
+      <Item Image="GS15"   Head="TX_2" Text="Don't move." />
+	  <Item Image=""   Head="TX_2" Text="Hand me your gun. Slowly." />
+	  <Item Image=""   Head="TX_1" Text="So you're a double agent after all, but not for us..." />
+	  <Item Image=""   Head="TX_2" Text="Manchmal ist die Wahrheit nicht, was du gesehen hast." />
+	  <Item Image=""   Head="TX_1" Text="(What? German?)" />
+	  <Item Image=""   Head="TX_2" Text="Goodbye, Glous." />
+	  <Item Image="GS16"   Head="" Text="[CRASH!]" />
+	  <Item Image="GS17"   Head="TX_1" Text="Rebecca..." />
+	  <Item Image="GS18"   Head="" Text="To be continued..." />
+    </End>
+  </Story8>
+  
+</UI>

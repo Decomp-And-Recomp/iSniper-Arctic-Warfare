@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="6" RefreshEnemyGap="2" MaxObserverTime="6" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Rebecca: They sent out their heavy armor unit! Aim for their heads!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Rebecca: Now that our enemies are rolling out more serious hardware, you should upgrade your gun, too!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<ZhuangJia Score="300" Exp="10" Health="300" Damage="18" MinNTime="3" MaxNTime="5" NRatio="0.04" MinWT="2" MaxWT="4" WRatio="0.08" AHead="60" ABody="120" AArm="90" ALeg="90" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

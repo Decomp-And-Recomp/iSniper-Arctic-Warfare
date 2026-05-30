@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="3" KillEnemySum="3" RefreshEnemyGap="2" MaxObserverTime="999" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Glous: Every night, the same nightmares come."/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Glous: Live by the gun, die by the gun."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JingJie Score="10" Exp="10" Health="100" Damage="0" MinNTime="4" MaxNTime="8" NRatio="0" MinWT="4" MaxWT="8" WRatio="0" AHead="-20" ABody="20" AArm="10" ALeg="10" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+</Stage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Stage MaxEnemyNum="3" KillEnemySum="3" RefreshEnemyGap="0" MaxObserverTime="9999" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Glous: Three on one? No problem."/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Glous: Game over, terrorists! Now let's go see Adam about those beers he owes us!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<YinHu1 Score="1000" Exp="10" Health="250" Damage="30" MinNTime="3" MaxNTime="5" NRatio="0.2" MinWT="2" MaxWT="4" WRatio="0.3" AHead="70" ABody="110" AArm="90" ALeg="90" ASpecial="0" MachineHealth="0"/>
+		<YinHu2 Score="1000" Exp="10" Health="250" Damage="30" MinNTime="3" MaxNTime="5" NRatio="0.2" MinWT="2" MaxWT="4" WRatio="0.3" AHead="70" ABody="110" AArm="90" ALeg="90" ASpecial="0" MachineHealth="0"/>
+		<YinHu3 Score="1000" Exp="10" Health="250" Damage="30" MinNTime="3" MaxNTime="5" NRatio="0.2" MinWT="2" MaxWT="4" WRatio="0.3" AHead="70" ABody="110" AArm="90" ALeg="90" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="imagebk" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="MenuUI" rect="0,0,480,320" />
+		</UIImage>
+		<UIImage name="storymodeimage" rect="175,210,130,22" enable="false" visible="true">
+			<Texture material="MenuUI" rect="297,465,130,22" />
+		</UIImage>
+		<UIButton name="storymodebtn" type="click" rect="123, 207, 240, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="248, 326, 240, 30" />
+		</UIButton>
+		
+		<UIImage name="newgameimage" rect="157,208,70,23" enable="false" visible="false">
+			<Texture material="MenuUI" rect="45,407,70,23" />
+		</UIImage>
+		<UIButton name="newgamebtn" type="click" rect="122, 207, 120, 30" enable="false" visible="false">
+			<Hover material="MenuUI" rect="26, 475, 120, 30" />
+		</UIButton>
+		
+		<UIImage name="continueimage" rect="260,210,70,23" enable="false" visible="false">
+			<Texture material="MenuUI" rect="148,405,70,23" />
+		</UIImage>
+		<UIButton name="continuebtn" type="click" rect="251, 207, 120, 30" enable="false" visible="false">
+			<Hover material="MenuUI" rect="148, 475, 120, 30" />
+		</UIButton>
+		
+		<UIImage name="arcademode1bk" rect="120, 164, 245, 36" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="0,0,245,36" />
+		</UIImage>
+		<UIImage name="arcademode2bk" rect="120, 164, 245, 36" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="0,37,245,36" />
+		</UIImage>
+		<UIButton name="arcademodebtn" type="click" rect="132, 166, 220, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="257, 356, 220, 30" />
+		</UIButton>
+		
+		<UIButton name="achievementbtn" type="click" rect="150, 127, 180, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="276, 387, 180, 30" />
+		</UIButton>
+		
+		<UIButton name="leaderboardbtn" type="click" rect="174, 88, 140, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="296, 417, 140, 30" />
+		</UIButton>
+		
+		<UIButton name="optionbtn" type="click" rect="20, 57, 130, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="13, 440, 130, 30" />
+		</UIButton>
+		
+		<UIButton name="weaponbtn" type="click" rect="340, 55, 130, 30" enable="true" visible="true">
+			<Hover material="MenuUI" rect="152, 442, 130, 30" />
+		</UIButton>
+		
+		<UIImage name="topflashimage" rect="262,307,68,13" enable="false" visible="true">
+			<Texture material="MenuUI" rect="30,350,68,13" />
+		</UIImage>
+		
+		<UIImage name="bottomflashimage" rect="207,8,83,16" enable="false" visible="true">
+			<Texture material="MenuUI" rect="27,372,83,16" />
+		</UIImage>
+		
+		<UIImage name="logoflashimage" rect="206,257,71,56" adjustrect="4,-1,0,0" enable="false" visible="true">
+			<Texture material="MenuUI" rect="129,337,71,56" />
+		</UIImage>
+		
+		<UIImage name="dialogblock" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GrayUI" rect="0,0,1,1" />
+		</UIImage>
+		<UIImage name="dialogyesnobk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,28,256,102" />
+		</UIImage>
+		<UIImage name="dialogokbk" rect="112,109,256,102" enable="false" visible="false">
+			<Texture material="DialogUI" rect="0,133,256,102" />
+		</UIImage>
+		<UIText name="dialogtext" rect="155,140,175,50" autoline="true" align="left" visible="false" font="julius12" fontHD="julius16" color="255,255,255,255">
+		this is the test dialog text kss test test test test test test
+		</UIText>
+		<UIButton name="yesbutton" type="click" rect="130,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>
+		<UIButton name="nobutton" type="click" rect="270,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>
+		<UIButton name="okbutton" type="click" rect="200,112,84,25" enable="false" visible="false">
+			<Hover material="DialogUI" rect="92,7,84,25" />
+		</UIButton>	
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="150,17,1,1" />
+		</UIImage>
+		<UIText name="newgametext" rect="60,170,420,50" autoline="false" align="left" visible="false" font="Arial20_bold" fontHD="Arial20_bold" color="255,255,255,255">
+		</UIText>
+		<UIText name="newgametext1" rect="320,135,120,50" autoline="false" align="left" visible="false" font="Arial20_bold" fontHD="Arial20_bold" color="255,255,255,255">
+		</UIText>
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="flashimage" control_id="bottomflashimage,topflashimage,logoflashimage">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+	</UIAnimation>
+</UI>

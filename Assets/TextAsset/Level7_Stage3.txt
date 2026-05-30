@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="12" RefreshEnemyGap="2" MaxObserverTime="9999" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Rebecca: Watch out! There are enemies hiding behind those crates."/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Rebecca: You never fail to impress, Glous! Let's keep going."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<SaoShe Score="200" Exp="10" Health="100" Damage="20" MinNTime="2" MaxNTime="5" NRatio="0.04" MinWT="1" MaxWT="3" WRatio="0.04" AHead="60" ABody="80" AArm="70" ALeg="70" ASpecial="0" MachineHealth="0"/>
+		<JingJie Score="200" Exp="10" Health="100" Damage="20" MinNTime="3" MaxNTime="6" NRatio="0.03" MinWT="2" MaxWT="4" WRatio="0.05" AHead="60" ABody="80" AArm="70" ALeg="70" ASpecial="0" MachineHealth="0"/>
+		<JuJi Score="200" Exp="10" Health="100" Damage="20" MinNTime="4" MaxNTime="9" NRatio="0.06" MinWT="3" MaxWT="7" WRatio="0.09" AHead="60" ABody="80" AArm="70" ALeg="70" ASpecial="0" MachineHealth="0"/>
+		<DuoCang Score="200" Exp="10" Health="100" Damage="20" MinNTime="2" MaxNTime="5" NRatio="0.05" MinWT="3" MaxWT="6" WRatio="0.07" AHead="60" ABody="80" AArm="70" ALeg="70" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

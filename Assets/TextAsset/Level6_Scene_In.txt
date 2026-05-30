@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Scene Time="12:00 PM" Address="Missile Silo" Describe="Eliminate all targets!" Scene="DJ06"/>

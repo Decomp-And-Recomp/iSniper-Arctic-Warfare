@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="12" RefreshEnemyGap="2" MaxObserverTime="5" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Rebecca: There's a blizzard coming. We'll freeze if we stay out here!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: It's no O'Malley's, but it should be nice and toasty in the silo. Looks like the entrance is on the right."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JuJi Score="200" Exp="10" Health="100" Damage="18" MinNTime="4" MaxNTime="10" NRatio="0.06" MinWT="3" MaxWT="8" WRatio="0.09" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<JingJie Score="200" Exp="10" Health="100" Damage="18" MinNTime="3" MaxNTime="7" NRatio="0.03" MinWT="2" MaxWT="5" WRatio="0.05" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<YouJi Score="200" Exp="10" Health="100" Damage="18" MinNTime="3" MaxNTime="7" NRatio="0.03" MinWT="2" MaxWT="5" WRatio="0.05" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+		<XunLuo Score="200" Exp="10" Health="100" Damage="18" MinNTime="4" MaxNTime="8" NRatio="0" MinWT="3" MaxWT="6" WRatio="0.04" AHead="50" ABody="70" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>	
+		<UIImage name="loading" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="loadingUI" rect="0,0,480,320" />
+		</UIImage>	
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="150,17,1,1" />
+		</UIImage>
+	</UIElem>
+	
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>

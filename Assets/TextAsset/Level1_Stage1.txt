@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Stage MaxEnemyNum="4" KillEnemySum="6" RefreshEnemyGap="2" MaxObserverTime="8" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Glous: Enemy forces are weak here. Wipe them out quickly."/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: Good work. Get ready to move in."/>
+  </MovieEndText>
+	<EnemyProperty>
+		<XunLuo Score="100" Exp="10" Health="100" Damage="10" MinNTime="5" MaxNTime="10" NRatio="0" MinWT="5" MaxWT="10" WRatio="0.03" AHead="0" ABody="20" AArm="10" ALeg="10" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+	
+		<UIImage name="storyimage1" rect="59,132,362,148" enable="false" visible="true" >
+			<Texture material="StoryUI" rect="75,54,362,148" />
+		</UIImage>
+		<UIImage name="storyimage2" rect="59,132,362,148" enable="false" visible="false" >
+			<Texture material="StoryUI" rect="75,54,362,148" />
+		</UIImage>
+		
+		<UIImage name="headbkimage" rect="20,35,64,64" enable="true" visible="true">
+			<Texture material="BlackUI" rect="34,271,1,1" />
+		</UIImage>
+		
+		<UIImage name="headimage" rect="20,35,64,64" enable="true" visible="true">
+			<Texture material="StoryUI" rect="0,0,64,64" />
+		</UIImage>
+
+		<UIImage name="bkImage" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="StoryUI" rect="0,0,480,320" />
+		</UIImage>
+		
+		<UIImage name="falshImage1" rect="63,135,20,145" enable="false" visible="true">
+			<Texture material="StoryUI" rect="410,366,20,145" />
+		</UIImage>
+		<UIImage name="falshImage2" rect="399,135,20,145" enable="false" visible="true">
+			<Texture material="StoryUI" rect="452,366,20,145" />
+		</UIImage>
+		<UIButton name="skipbtn" type="click" rect="420,95,65,23" enable="true" visible="true">
+			<Hover material="StoryUI" rect="297,334,65,23" />
+		</UIButton>
+		<UIButton name="nextbtn" type="click" rect="401,0,79,29" enable="true" visible="true">
+			<Press material="StoryUI" rect="401,330,79,29" />
+			<Disable material="StoryUI" rect="401,330,79,29" />
+		</UIButton>
+		
+		<UIText name="headtext" rect="20,10,64,20" autoline="true" align="center" visible="true" font="julius12" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="talktext" rect="98,40,347,50" autoline="true" align="left" visible="true" font="ziti" fontHD="ziti" color="255,255,255,255">
+		</UIText>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="34,271,1,1" />
+		</UIImage>
+		
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+	
+		<Animation name="flashimage" control_id="falshImage1,falshImage2">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		
+		<Animation name="storyimage1in" control_id="storyimage1">
+			<Alpha time="1.5" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="storyimage1out" control_id="storyimage1">
+			<Alpha time="1.5" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="storyimage2in" control_id="storyimage2">
+			<Alpha time="1.5" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="storyimage2out" control_id="storyimage2">
+			<Alpha time="1.5" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="nextbtndelay" control_id="storyimage1">
+			<Alpha time="1.5" range="0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+	</UIAnimation>
+</UI>

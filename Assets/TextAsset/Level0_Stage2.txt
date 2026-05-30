@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="6" RefreshEnemyGap="2" MaxObserverTime="999" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Glous: No one lives forever."/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value=""/>
+  </MovieEndText>
+	<EnemyProperty>
+		<ZhuangJia Score="0" Exp="10" Health="300" Damage="18" MinNTime="3" MaxNTime="5" NRatio="1" MinWT="2" MaxWT="4" WRatio="1" AHead="20" ABody="40" AArm="60" ALeg="60" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+</Stage>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Stage MaxEnemyNum="3" KillEnemySum="3" RefreshEnemyGap="0" MaxObserverTime="999" MusicOn="True">
+  <MovieStartText>
+    <Text Value="Mission: Defeat the Silver Foxes!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Mission Complete!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<YinHu1 Score="1000" Exp="10" Health="250" Damage="20" MinNTime="2" MaxNTime="4" NRatio="0.2" MinWT="1" MaxWT="3" WRatio="0.3" AHead="20" ABody="60" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+		<YinHu2 Score="1000" Exp="10" Health="250" Damage="20" MinNTime="2" MaxNTime="4" NRatio="0.2" MinWT="1" MaxWT="3" WRatio="0.3" AHead="20" ABody="60" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+		<YinHu3 Score="1000" Exp="10" Health="250" Damage="20" MinNTime="2" MaxNTime="4" NRatio="0.2" MinWT="1" MaxWT="3" WRatio="0.3" AHead="20" ABody="60" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

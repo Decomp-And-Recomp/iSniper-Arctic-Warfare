@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="14" RefreshEnemyGap="2" MaxObserverTime="4" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Rebecca: Take them down before they get close enough to take a shot!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Rebecca: We need help on the left!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<ChongFeng Score="200" Exp="10" Health="100" Damage="14" MinNTime="3" MaxNTime="6" NRatio="0.02" MinWT="2" MaxWT="4" WRatio="0.05" AHead="30" ABody="50" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+		<JingJie Score="200" Exp="10" Health="100" Damage="14" MinNTime="4" MaxNTime="7" NRatio="0.03" MinWT="3" MaxWT="5" WRatio="0.05" AHead="30" ABody="50" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

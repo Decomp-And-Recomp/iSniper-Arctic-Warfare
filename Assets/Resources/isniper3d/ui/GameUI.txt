@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="aimshotbygun" rect="108,28,264,264" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,68,57,57" />
+		</UIImage>
+		<UIImage name="shotbygun" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GameUI" rect="844,64,100,68" />
+		</UIImage>
+		<UIImage name="aimbk" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GameUI" rect="0,0,480,320" />
+		</UIImage>
+		<UIImage name="holdbk" rect="0, 0, 125, 105" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="126,0,125,105" />
+		</UIImage>
+		<UIImage name="firebk" rect="355, 0, 125, 105" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="0,0,125,105" />
+		</UIImage>
+		<UIImage name="holdlightcycle" rect="103,23,270,274" enable="false" visible="false">
+			<Texture material="GameUI" rect="754,238,270,274" />
+		</UIImage>
+		<UIImage name="bulletactive" rect="340,45,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,13,58,13" />
+		</UIImage>
+		<UIImage name="bullet1" rect="352,35,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,0,58,13" />
+		</UIImage>
+		<UIImage name="bullet2" rect="352,27,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,0,58,13" />
+		</UIImage>
+		<UIImage name="bullet3" rect="352,19,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,0,58,13" />
+		</UIImage>
+		<UIImage name="bullet4" rect="352,11,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,0,58,13" />
+		</UIImage>
+		<UIImage name="bullet5" rect="352,3,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,0,58,13" />
+		</UIImage>
+		<UIImage name="bulletmask" rect="384,0,63,61" enable="false" visible="false">
+			<Texture material="GameUI" rect="882,0,63,61" />
+		</UIImage>
+		
+		<UIButton name="holdbtn" type="press" rect="0, 0, 85, 80" enable="false" visible="false">
+			<Normal material="GameUI" rect="653, 0, 85, 80" />
+			<Press material="GameUI" rect="653, 80, 85, 80" />
+			<Disable material="GameUI" rect="653, 80, 85, 80" />
+		</UIButton>
+		<UIImage name="holdbtnmask" rect="0, 0, 85, 80" enable="false" visible="false">
+			<Texture material="GameUI" rect="653, 80, 85, 80" />
+		</UIImage>
+		<UIImage name="aimcdbk" rect="89,0,28,79" enable="false" visible="false">
+			<Texture material="GameUI" rect="797,10,28,79" />
+		</UIImage>
+		<UIImage name="aimcdmask" rect="85,72,40,38" enable="false" visible="false">
+			<Texture material="GameUI" rect="825,10,40,38" />
+		</UIImage>
+		
+		<UIButton name="joystickbtn" type="joystick" rect="0, 0, 74, 74" enable="false" visible="false">
+			<Normal material="GameUI" rect="739,39,29,29" />
+			<Press material="GameUI" rect="768,39,29,29" />
+			<Disable material="GameUI" rect="739,39,29,29" />
+		</UIButton>
+		
+		<UIButton name="firebtn" type="click" rect="393, 0, 87, 80" enable="false" visible="false">
+			<Normal material="GameUI" rect="566, 0, 87, 80" />
+			<Press material="GameUI" rect="566, 0, 87, 80" />
+			<Disable material="GameUI" rect="566, 80, 87, 80" />
+		</UIButton>
+		<UIImage name="firebtnmask" rect="393, 0, 87, 80" enable="false" visible="false">
+			<Texture material="GameUI" rect="566, 80, 87, 80" />
+		</UIImage>
+		
+		
+		<UIImage name="bulletshell" rect="340,45,58,13" enable="false" visible="false">
+			<Texture material="GameUI" rect="739,26,58,13" />
+		</UIImage>
+		
+		<UIImage name="aimangleimage" rect="71,156,7,16" adjustrect="8,0,0,0" enable="false" visible="false">
+			<Texture material="GameUI" rect="867,29,7,16" />
+		</UIImage>
+		<UIImage name="aimmoveimagebk" rect="380,110,32,117" enable="false" visible="false">
+			<Texture material="GameUI" rect="100,372,32,117" />
+		</UIImage>
+		<UIImage name="aimmoveimagebk1" rect="382,110,24,121" enable="false" visible="false">
+			<Texture material="GameUI" rect="73,368,24,121" />
+		</UIImage>
+		<UIImage name="aimmoveimage0" rect="387,120,16,95" enable="false" visible="false">
+			<Texture material="GameUI" rect="12,384,16,95" />
+		</UIImage>
+		<UIImage name="aimmoveimage1" rect="387,120,16,95" enable="false" visible="false">
+			<Texture material="GameUI" rect="36,384,16,95" />
+		</UIImage>
+		<UIImage name="aimmoveimage2" rect="387,120,16,95" enable="false" visible="false">
+			<Texture material="GameUI" rect="56,384,16,95" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage0" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="135,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage1" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="144,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage2" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="153,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage3" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="162,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage4" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="171,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage5" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="180,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage6" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="189,404,7,57" />
+		</UIImage>
+		<UIImage name="aimmovesmallimage7" rect="380,138,7,57" enable="false" visible="false">
+			<Texture material="GameUI" rect="198,404,7,57" />
+		</UIImage>
+		
+		<UINewMove name="aimanglemove" rect="370,110,45,120" enable="false"/>
+		
+		<UIImage name="headshottip" rect="0,0,137,27" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,161,137,27" />
+		</UIImage>
+		<UIImage name="normalhittip" rect="0,0,108,27" enable="false" visible="false">
+			<Texture material="GameUI" rect="630,161,108,27" />
+		</UIImage>
+		<UIImage name="craticalhittip" rect="0,0,134,27" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,187,134,27" />
+		</UIImage>
+		<UIImage name="bodyshottip" rect="0,0,124,27" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,211,124,27" />
+		</UIImage>
+		<UIImage name="luckyshottip" rect="0,0,125,27" enable="false" visible="false">
+			<Texture material="GameUI" rect="610,211,125,27" />
+		</UIImage>
+		<UIImage name="limbshottip" rect="0,0,113,23" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,238,113,23" />
+		</UIImage>
+		<UIImage name="friendlyfiretip" rect="0,0,133,23" enable="false" visible="false">
+			<Texture material="GameUI" rect="606,238,133,23" />
+		</UIImage>
+		<UIImage name="timebonus" rect="0,0,114,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="480,421,114,17" />
+		</UIImage>
+		<UIImage name="healthbonus" rect="0,0,133,23" enable="false" visible="false">
+			<Texture material="GameUI" rect="480,442,133,23" />
+		</UIImage>
+		
+		<UIImage name="+10%hp" rect="0,0,47,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="679,424,49,14" />
+		</UIImage>
+		<UIImage name="+20p" rect="0,0,47,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="612,267,47,17" />
+		</UIImage>
+		<UIImage name="+500" rect="0,0,49,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="671,267,49,17" />
+		</UIImage>
+		<UIImage name="+20" rect="0,0,58,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="674,284,58,17" />
+		</UIImage>
+		<UIImage name="+6" rect="0,0,50,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="680,302,50,17" />
+		</UIImage>
+		<UIImage name="+4" rect="0,0,50,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="680,321,50,17" />
+		</UIImage>
+		<UIImage name="+2" rect="0,0,50,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="680,340,50,17" />
+		</UIImage>
+		<UIImage name="+10" rect="0,0,58,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="674,361,58,17" />
+		</UIImage>
+		<UIImage name="+5" rect="0,0,50,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="680,380,50,17" />
+		</UIImage>
+		<UIImage name="-5" rect="0,0,50,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="680,399,50,17" />
+		</UIImage>
+		<UIImage name="-10" rect="0,0,43,19" enable="false" visible="false">
+			<Texture material="GameUI" rect="692,443,43,19" />
+		</UIImage>
+		<UIImage name="healthpointbonus" rect="0,0,145,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,284,145,17" />
+		</UIImage>
+		<UIImage name="enemyeliminated" rect="0,0,136,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,302,136,17" />
+		</UIImage>
+		<UIImage name="timebonus1" rect="0,0,100,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,321,100,17" />
+		</UIImage>
+		<UIImage name="enemycrippled" rect="0,0,117,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,340,117,17" />
+		</UIImage>
+		<UIImage name="scorebonus" rect="0,0,95,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,361,95,17" />
+		</UIImage>
+		<UIImage name="targedestroy" rect="0,0,133,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,380,133,17" />
+		</UIImage>
+		<UIImage name="hostageinjured" rect="0,0,91,17" enable="false" visible="false">
+			<Texture material="GameUI" rect="481,399,91,17" />
+		</UIImage>
+		
+		<UIImage name="headshotmask" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="GameUI" rect="226,399,98,64" />
+		</UIImage>
+
+		<UIImage name="datashowpanel" rect="0,281,480,39" enable="false" visible="true">
+			<Texture material="GameUI" rect="0,320,480,39" />
+		</UIImage>
+		<UIImage name="playerbloodimage" rect="5,311,84,7" enable="false" visible="true">
+			<Texture material="GameUI" rect="797,0,84,7" />
+		</UIImage>
+		<UIText name="playerbloodtext" rect="51,285,50,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIImage name="bodystatusimage" rect="5,285,15,11" enable="false" visible="true">
+			<Texture material="GameUI" rect="867,7,15,11" />
+		</UIImage>
+		<UIText name="enemydatatext" rect="28,272,50,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="gametimetext" rect="230,297,50,25" autoline="false" align="left" visible="true" font="anency11" fontHD="anency22" color="255,255,255,255">
+		</UIText>
+		<UIText name="playerscoretext" rect="400,296,60,25" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="enemybloodtext" rect="390,271,60,25" autoline="false" align="right" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		
+		<UIImage name="hideimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="2,2,1,1" />
+		</UIImage>
+		<UIImage name="textimage" rect="110,205,280,40" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="0,232,256,24" />
+		</UIImage>
+		<UIText name="tipText" rect="110,200,270,40" autoline="true" align="center" visible="false" font="ziti_w" fontHD="ziti_w" color="255,255,255,255">
+		</UIText>
+		<UIImage name="touchimage" rect="180, 150, 30, 30" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="226,106,30,30" />
+		</UIImage>
+		<UIImage name="touchimage1" rect="180, 150, 30, 30" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="226,106,30,30" />
+		</UIImage>
+		<UIButton name="tipbtn" type="click" rect="180, 150, 30, 30" enable="false" visible="false">
+		</UIButton>
+		<UIImage name="zoomimage" rect="373,105,41,128" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="187,105,38,128" />
+		</UIImage>
+		<UIImage name="fireimage" rect="389, -20, 107, 107" enable="false" visible="false">
+			<Texture material="MenuGameUI" rect="83,105,107,107" />
+		</UIImage>
+		
+		<UIButton name="pausebtn" type="click" rect="430,275,60,45" enable="true" visible="false">
+		</UIButton>
+		
+		<UIImage name="pausebk" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,0,480,320" />
+		</UIImage>
+		<UIImage name="pausetextbk" rect="255,258,90,20" enable="false" visible="false">
+			<Texture material="PauseUI" rect="265,449,90,20" />
+		</UIImage>
+		<UIImage name="pausetext" rect="273,262,55,16" enable="false" visible="false">
+			<Texture material="PauseUI" rect="280,428,55,16" />
+		</UIImage>
+		<UIImage name="pauseflashimage1" rect="100,95,20,145" enable="false" visible="false">
+			<Texture material="PauseUI" rect="488,10,20,145" />
+		</UIImage>
+		<UIImage name="pauseflashimage2" rect="362,95,20,145" adjustrect="2,0,0,0" enable="false" visible="false">
+			<Texture material="PauseUI" rect="482,168,20,145" />
+		</UIImage>
+		
+		<UIImage name="pauseresumebk" rect="113,210,257,24" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,348,257,24" />
+		</UIImage>
+		<UIImage name="pauserestartbk" rect="113,172,257,24" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,374,257,24" />
+		</UIImage>
+		<UIImage name="pauseoptionbk" rect="113,134,257,24" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,401,257,24" />
+		</UIImage>
+		<UIImage name="pausemenubk" rect="113,96,257,24" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,428,257,24" />
+		</UIImage>
+		<UIButton name="pauseresumebtn" type="click" rect="113,210,257,25" enable="false" visible="false">
+			<Hover material="PauseUI" rect="0,323,257,25" />
+		</UIButton>
+		<UIButton name="pauserestartbtn" type="click" rect="113,172,257,25" enable="false" visible="false">
+			<Hover material="PauseUI" rect="0,323,257,25" />
+		</UIButton>
+		<UIButton name="pauseoptionbtn" type="click" rect="113,135,257,25" enable="false" visible="false">
+			<Hover material="PauseUI" rect="0,323,257,25" />
+		</UIButton>
+		<UIButton name="pausemenubtn" type="click" rect="113,98,257,25" enable="false" visible="false">
+			<Hover material="PauseUI" rect="0,323,257,25" />
+		</UIButton>
+		
+		<UIImage name="pausecontrolbk" rect="120,213,252,20" enable="false" visible="false">
+			<Texture material="PauseUI" rect="260,329,252,20" />
+		</UIImage>
+		<UIImage name="pauseinvertbk" rect="120,185,252,18" enable="false" visible="false">
+			<Texture material="PauseUI" rect="0,493,252,18" />
+		</UIImage>
+		<UIImage name="pauseinvert1" rect="268,187,88,11" enable="false" visible="false">
+			<Texture material="PauseUI" rect="260,498,88,11" />
+		</UIImage>
+		<UIImage name="pauseinvert2" rect="268,187,88,11" enable="false" visible="false">
+			<Texture material="PauseUI" rect="361,498,88,11" />
+		</UIImage>
+		<UIImage name="pausesentivitybk" rect="120,157,252,20" enable="false" visible="false">
+			<Texture material="PauseUI" rect="260,367,252,20" />
+		</UIImage>
+		<UIImage name="pausesoundbk" rect="120,129,252,18" enable="false" visible="false">
+			<Texture material="PauseUI" rect="260,387,252,18" />
+		</UIImage>
+		<UIImage name="pausemusicbk" rect="120,101,252,18" enable="false" visible="false">
+			<Texture material="PauseUI" rect="260,406,252,18" />
+		</UIImage>
+		<UIImage name="pausebackbk" rect="101,57,105,35" enable="false" visible="false">
+			<Texture material="PauseUI" rect="404,432,105,35" />
+		</UIImage>
+		
+		<UIButton name="pausecontrolbtn" type="push" rect="130,212,100,20" enable="false" visible="false">
+			<Normal material="PauseUI" rect="113,461,100,16" />
+			<Press material="PauseUI" rect="113,478,100,16" />
+			<Disable material="PauseUI" rect="113,461,100,16" />
+		</UIButton>
+		<UIButton name="pauseinvertbtn" type="push" rect="130,186,80,16" enable="false" visible="false">
+			<Normal material="PauseUI" rect="28,462,80,14" />
+			<Press material="PauseUI" rect="28,479,80,14" />
+			<Disable material="PauseUI" rect="28,452,80,12" />
+		</UIButton>
+		<UIMove name="pausesenstivitymove" rect="131,156,90,21" enable="false"/>
+		<UIImage name="pausesenstivitymark" rect="170,158,13,25" enable="false" visible="false">
+			<Texture material="PauseUI" rect="364,466,13,25" />
+		</UIImage>
+		
+		<UIButton name="pauseresetbtn" type="click" rect="225,156,40,21" enable="false" visible="false">
+		</UIButton>
+		
+		<UIButton name="pausesoundbtn" type="push" rect="130,131,80,16" enable="false" visible="false">
+			<Normal material="PauseUI" rect="28,462,80,14" />
+			<Press material="PauseUI" rect="28,479,80,14" />
+			<Disable material="PauseUI" rect="28,462,80,14" />
+		</UIButton>
+		<UIButton name="pausemusicbtn" type="push" rect="130,102,80,16" enable="false" visible="false">
+			<Normal material="PauseUI" rect="28,462,80,14" />
+			<Press material="PauseUI" rect="28,479,80,14" />
+			<Disable material="PauseUI" rect="28,462,80,14" />
+		</UIButton>
+		
+		<UIButton name="pausebackbtn" type="click" rect="115,63,78,22" enable="false" visible="false">
+			<Hover material="PauseUI" rect="418,466,78,22" />
+		</UIButton>
+		
+		<UIImage name="startMovieTop" rect="0,270,480,50" enable="false" visible="true">
+			<Texture material="BlackUI" rect="2,2,1,1" />
+		</UIImage>
+		<UIImage name="startMovieBottom" rect="0,0,480,50" enable="false" visible="true">
+			<Texture material="BlackUI" rect="2,2,1,1" />
+		</UIImage>
+		<UIText name="startTalkText" rect="10,5,460,40" autoline="true" align="left" visible="false" font="ziti_w" fontHD="ziti_w" color="255,255,255,255">
+		</UIText>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="2,2,1,1" />
+		</UIImage>
+	
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="helpflashimage" control_id="zoomimage,fireimage,touchimage,touchimage1">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		<Animation name="starttiptextshow" control_id="tipText" >
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="bulletactiveload1" control_id="bulletactive" >
+			<Translate time="2" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload2" control_id="bulletactive" >
+			<Translate time="1.8" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload3" control_id="bulletactive" >
+			<Translate time="1.6" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload4" control_id="bulletactive" >
+			<Translate time="1.4" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload5" control_id="bulletactive" >
+			<Translate time="1.2" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload6" control_id="bulletactive" >
+			<Translate time="1" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload7" control_id="bulletactive" >
+			<Translate time="0.8" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload8" control_id="bulletactive" >
+			<Translate time="0.6" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload9" control_id="bulletactive" >
+			<Translate time="0.4" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletactiveload10" control_id="bulletactive" >
+			<Translate time="0.2" offset="-50,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload1" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="2" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload2" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="1.8" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload3" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="1.6" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload4" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="1.4" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload5" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="1.2" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload6" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="1" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload7" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="0.8" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload8" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="0.6" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload9" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="0.4" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="bulletload10" control_id="bullet1,bullet2,bullet3,bullet4,bullet5" >
+			<Translate time="0.2" offset="-30,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="startmovieup" control_id="startMovieTop" >
+			<Translate time="1.5" offset="0,-50" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="startmoviedown" control_id="startMovieBottom" >
+			<Translate time="1.5" offset="0,50" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="endmovieup" control_id="startMovieTop" >
+			<Translate time="1.5" offset="0,50" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="endmoviedown" control_id="startMovieBottom" >
+			<Translate time="1.5" offset="0,-50" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="starttalktextshow" control_id="startTalkText" >
+			<Alpha time="1" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="starttalktexthide" control_id="startTalkText" >
+			<Alpha time="0.8" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="tipshow_headshottip" control_id="headshottip,enemyeliminated,+6">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_headshottip" control_id="headshottip,enemyeliminated,+6">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_normalhittip" control_id="normalhittip,targedestroy,+5">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_normalhittip" control_id="normalhittip,targedestroy,+5">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_craticalhittip" control_id="craticalhittip,targedestroy,+10">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_craticalhittip" control_id="craticalhittip,targedestroy,+10">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_bodyshottip" control_id="bodyshottip,enemyeliminated,+4">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_bodyshottip" control_id="bodyshottip,enemyeliminated,+4">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_luckyshottip" control_id="luckyshottip">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_luckyshottip" control_id="luckyshottip">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_limbshottip" control_id="limbshottip,enemycrippled,+2">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_limbshottip" control_id="limbshottip,enemycrippled,+2">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_friendlyfiretip" control_id="friendlyfiretip,hostageinjured,-5,-10">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_friendlyfiretip" control_id="friendlyfiretip,hostageinjured,-5,-10">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="tipshow_timebonus" control_id="timebonus,+10">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_timebonus" control_id="timebonus,+10">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipshow_healthbonus" control_id="healthbonus,+10%hp">
+			<Scale time="0.2" range="-3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="tipexit_healthbonus" control_id="healthbonus,+10%hp">
+			<Scale time="0.2" range="3" restore="false" loop="false" reverse="false"/>
+			<Alpha time="0.2" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="aimshotbygun" control_id="aimshotbygun">
+			<Alpha time="0.3" range="1" restore="true" loop="false" reverse="true"/>
+		</Animation>
+		
+		<Animation name="shotbygun" control_id="shotbygun">
+			<Alpha time="0.3" range="1" restore="true" loop="false" reverse="true"/>
+		</Animation>
+		
+		<Animation name="holdlightcycleshow" control_id="holdlightcycle">
+			<Alpha time="0.3" range="1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="holdlightcyclehide" control_id="holdlightcycle">
+			<Alpha time="0.3" range="-1" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="pauseflashimage" control_id="pauseflashimage1,pauseflashimage2">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>		
+		
+	</UIAnimation>
+</UI>

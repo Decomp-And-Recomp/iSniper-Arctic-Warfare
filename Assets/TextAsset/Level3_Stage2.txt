@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Stage MaxEnemyNum="6" KillEnemySum="10" RefreshEnemyGap="2" MaxObserverTime="6" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Rebecca: Target the snipers first!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Adam: We're sitting ducks out here! We need to find better cover!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JuJi Score="100" Exp="10" Health="100" Damage="12" MinNTime="5" MaxNTime="10" NRatio="0.05" MinWT="4" MaxWT="8" WRatio="0.08" AHead="20" ABody="40" AArm="30" ALeg="30" ASpecial="0" MachineHealth="0"/>
+		<JingJie Score="100" Exp="10" Health="100" Damage="12" MinNTime="4" MaxNTime="7" NRatio="0.02" MinWT="3" MaxWT="5" WRatio="0.04" AHead="20" ABody="40" AArm="30" ALeg="30" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>

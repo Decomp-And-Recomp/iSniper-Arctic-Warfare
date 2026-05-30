@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<UI>
+	<UIElem>
+		<UIImage name="imagebk" rect="0,0,480,320" enable="false" visible="true">
+			<Texture material="ResultFailedUI" rect="0,0,480,320" />
+		</UIImage>
+		
+		<UIImage name="bloodupbk" rect="85,195,310,126" enable="false" visible="false">
+			<Texture material="ResultFailedUI" rect="0,322,310,126" />
+		</UIImage>
+		
+		<UIImage name="flashimage" rect="40,204,400,20" enable="false" visible="true">
+			<Texture material="ResultFailedUI" rect="113,491,400,20" />
+		</UIImage>
+		
+		<UIImage name="scoreimage" rect="100,172,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="accuracyimage" rect="100,155,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="healthimage" rect="100,137,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="timeimage" rect="100,121,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="cashbonusimage" rect="100,103,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="cashtotalimage" rect="100,87,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="experiencebonusimage" rect="100,70,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		<UIImage name="experiencetotalimage" rect="100,53,120,15" enable="false" visible="true" alpha="0">
+			<Texture material="ResultFailedUI" rect="354,335,120,15" />
+		</UIImage>
+		
+		<UIImage name="levelEffect" rect="377,160,52,17" enable="false" visible="false">
+			<Texture material="ResultSuccessUI" rect="0, 320,51,17" />
+		</UIImage>
+		<UIImage name="levelUpPonit" rect="375,161,4,4" enable="false" visible="false">
+			<Texture material="ResultSuccessUI" rect="51, 320,4,4" />
+		</UIImage>
+		
+		<UIText name="leveltext" rect="410,150,50,25" autoline="false" align="left" visible="true" font="julius7" fontHD="julius12" color="255,255,255,255">
+		</UIText>
+		<UIText name="scoretext" rect="275,163,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="accuracytext" rect="275,145,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="healthtext" rect="275,128,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="timetext" rect="275,111,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="cashbonustext" rect="275,94,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="cashtotaltext" rect="275,78,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="experiencebonustext" rect="275,60,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		<UIText name="experiencetotaltext" rect="275,43,100,25" autoline="false" align="left" visible="true" font="julius8" fontHD="julius16" color="255,255,255,255">
+		</UIText>
+		
+		<UIButton name="mainmenubtn" type="click" rect="107, 23, 100, 30" enable="true" visible="true">
+			<Hover material="ResultFailedUI" rect="363, 352, 100, 30" />
+		</UIButton>
+		<UIButton name="continuebtn" type="click" rect="280, 23, 100, 30" enable="true" visible="true">
+			<Hover material="ResultFailedUI" rect="363, 352, 100, 30" />
+		</UIButton>
+		
+		<UIImage name="buttondisableimage" rect="106,20,273,31" enable="true" visible="true">
+			<Texture material="ResultFailedUI" rect="0,459,273,31" />
+		</UIImage>
+		
+		<UIImage name="fadeimage" rect="0,0,480,320" enable="false" visible="false">
+			<Texture material="BlackUI" rect="124,150,1,1" />
+		</UIImage>
+		
+	</UIElem>
+	<UIAnimation>
+		<Animation name="fadein" control_id="fadeimage" >
+			<Alpha time="1" range="-1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		<Animation name="fadeout" control_id="fadeimage" >
+			<Alpha time="1" range="1" restore="false" loop ="false" reverse="false"/>
+		</Animation>
+		
+		<Animation name="flashimage" control_id="flashimage">
+			<Alpha time="0.5" range="-1" restore="true" loop="true" reverse="true"/>
+		</Animation>
+		
+		<Animation name="scoreimage" control_id="scoreimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="accuracyimage" control_id="accuracyimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="healthimage" control_id="healthimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="timeimage" control_id="timeimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="cashbonusimage" control_id="cashbonusimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="cashtotalimage" control_id="cashtotalimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="experiencebonusimage" control_id="experiencebonusimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="experiencetotalimage" control_id="experiencetotalimage">
+			<Alpha time="0.15" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.3" offset="200,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="levelUpPonit" control_id="levelUpPonit">
+			<Alpha time="0.02" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.04" offset="0,13" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="levelUpPonit1" control_id="levelUpPonit">
+			<Alpha time="0.08" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.16" offset="51,0" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="levelUpPonit2" control_id="levelUpPonit">
+			<Alpha time="0.02" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.04" offset="0,-13" restore="false" loop="false" reverse="false"/>
+		</Animation>
+		<Animation name="levelUpPonit3" control_id="levelUpPonit">
+			<Alpha time="0.08" range="1" restore="true" loop="false" reverse="true"/>
+			<Translate time="0.16" offset="-51,0" restore="false" loop="false" reverse="false"/>
+		</Animation>	
+		
+	</UIAnimation>
+</UI>

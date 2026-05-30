@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Stage MaxEnemyNum="8" KillEnemySum="20" RefreshEnemyGap="2" MaxObserverTime="18" MusicOn="False">
+  <MovieStartText>
+    <Text Value="Mission: Survive!"/>
+  </MovieStartText>
+  <MovieEndText>
+    <Text Value="Mission Complete!"/>
+  </MovieEndText>
+	<EnemyProperty>
+		<JingJie Score="400" Exp="10" Health="100" Damage="15" MinNTime="4" MaxNTime="8" NRatio="0.06" MinWT="3" MaxWT="6" WRatio="0.08" AHead="20" ABody="60" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+		<ChongFeng Score="400" Exp="10" Health="100" Damage="15" MinNTime="3" MaxNTime="6" NRatio="0.04" MinWT="2" MaxWT="4" WRatio="0.08" AHead="20" ABody="60" AArm="40" ALeg="40" ASpecial="0" MachineHealth="0"/>
+	</EnemyProperty>
+	<BuJiProperty>
+		<BuJi BuJiDisappear="-1" MaxBuJiNum="1" AddHealth ="10" AddTime="10"/>
+	</BuJiProperty>
+</Stage>
